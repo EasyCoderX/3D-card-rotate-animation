@@ -154,10 +154,6 @@ body{
     html{
         font-size: 65%;
     }
-    .banner .slider .item {
-        transform: 
-            rotateY(calc((var(--position) - 1) * 360/ (var(--quantity)) * 1deg));    
-    }
 
     @keyframes autoRun{
         from{
@@ -170,10 +166,6 @@ body{
 }
 
 @media screen and (max-width:480px ) {  
-    .banner .slider .item {
-        transform: 
-            rotateY(calc((var(--position) - 1) * 360/ (var(--quantity)) * 1deg));    
-    }
     
     @keyframes autoRun{
         from{
